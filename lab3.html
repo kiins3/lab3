@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hai Dang</title>
+</head>
+<body>
+    <div>
+        <h1> Courses </h1>
+        <table border="1">
+            <tr aline="center">
+                <th><b>Course number</b></th>
+                <th><b>Course title</b></th>
+                <th><b>Memester taken</b></th>
+            </tr>
+            <tr align="center">
+                <th colspan="3"><b>For credit</b></th>
+            </tr>
+            <tr align="center">
+                <td>6.1223</td>
+                <td>Operating system</td>
+                <td>spring 19</td>
+            </tr>
+            <tr align="center">
+                <td>5.9480</td>
+                <td>Artificial intelligence</td>
+                <td>fall 19</td>
+            </tr>
+            <tr align="center">
+                <td>7.0879</td>
+                <td>data mining</td>
+                <td>fall 19</td>
+            </tr>
+            <tr align="center">
+                <th colspan="3"><b>For listener</b></th>
+            </tr>
+            <tr align="center">
+                <td>8.0383</td>
+                <td>Database</td>
+                <td>fall 19</td>
+            </tr>
+            <tr align="center">
+                <td>6.0393</td>
+                <td>Java programming</td>
+                <td>spring 19</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1><b>Submit information</b></h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="Full name">Full name: </label></td>
+                    <td><input type="text" name="fn" id="Full name"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gen" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gen" id="female">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <label for="Music">Music</label>
+                        <input type="checkbox" name="music" id="Music">
+                        <br>
+                        <label for="Games">Games</label>
+                        <input type="checkbox" name="games" id="Games">
+                        <br>
+                        <label for="Movies">Movies</label>
+                        <input type="checkbox" name="movies" id="Movies">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of birth: </label></td>
+                    <td><input type="date" name="dob" id="Date of birth"></td>
+                </tr>
+                <tr>
+                    <td><label for="ctr">Country: </label></td>
+                    <td>    
+                        <select name="country" id="ctr">
+                            <option value="1">Ha Noi</option>
+                            <option value="2">TP.HCM</option>
+                            <option value="3">Lao Cai</option>
+                            <option value="4">Vinh Phuc</option>
+                            <option value="5">Yen Bai</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="eml">Email: </label></td>
+                    <td>
+                        <input type="email" name="email" id="eml" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password: </label></td>
+                    <td>
+                        <input type="password" name="password" id="pass" minlength="6" required>
+                    </td>
+                </tr>
+                <td><button>Submit</button></td>
+                <td><button>Reset</button></td>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
